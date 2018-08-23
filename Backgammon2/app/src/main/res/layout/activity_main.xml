@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background7"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="316dp"
+        android:layout_height="135dp"
+        app:srcCompat="@drawable/logo3" />
+
+    <Button
+        android:id="@+id/newGameButton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#ae865e"
+        android:text="New Game"
+        android:textColor="#fffdfd"
+        android:onClick="onClickStartGame"/>
+
+    <Button
+        android:id="@+id/continueGameButton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#ae865e"
+        android:text="Continue"
+        android:clickable="false"
+        android:textColor="#fffdfd"
+        android:onClick="onClickContnueGame"/>
+
+    <Button
+        android:id="@+id/settingsButton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#ae865e"
+        android:text="Settings"
+        android:textColor="#fffdfd"
+        android:onClick="onClickSettings"
+        />
+
+    <Button
+        android:id="@+id/scoresButton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#ae865e"
+        android:text="Scores"
+        android:textColor="#fffdfd"
+        android:onClick="onClickScores"/>
+
+
+</LinearLayout>

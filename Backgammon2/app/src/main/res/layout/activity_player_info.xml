@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background7"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".PlayerInfoActivity">
+
+
+    <TextView
+        android:id="@+id/whitePlayer"
+        android:layout_width="109dp"
+        android:layout_height="34dp"
+        android:layout_margin="3dp"
+        android:text="White Player"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/whitePlayerName"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:text="Player1"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_margin="3dp"
+        android:id="@+id/blackPlayer"
+        android:layout_width="109dp"
+        android:layout_height="34dp"
+        android:text="Black Player"
+        android:textColor="@android:color/background_dark"
+        tools:textColor="@android:color/black" />
+
+    <EditText
+        android:layout_margin="3dp"
+        android:id="@+id/blackPlayerName"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:text="Player2"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="171dp"
+        android:layout_height="84dp">
+
+
+        <RadioButton
+
+            android:id="@+id/blackIsComp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="One Player Comp"
+            android:textColor="@android:color/black" />
+
+        <RadioButton
+
+            android:id="@+id/noComp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="No Computer Player"
+            android:checked="true"
+            android:textColor="@android:color/black" />
+    </RadioGroup>
+
+    <Button
+        android:layout_margin="3dp"
+        android:id="@+id/startGame"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="Start Game"
+        android:onClick="onClickStartGame"/>
+
+</LinearLayout>

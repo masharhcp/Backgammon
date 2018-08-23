@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="@string/betweenShakesCurrent"
+        android:title="Beetwen Shakes"
+        android:defaultValue="400"
+        >
+
+    </EditTextPreference>
+
+    <EditTextPreference
+        android:key="@string/thresholdCurrent"
+        android:title="Threshold"
+        android:defaultValue="10"
+        >
+
+    </EditTextPreference>
+
+    <EditTextPreference
+        android:key="@string/pauseCurrent"
+        android:title="Pause"
+        android:defaultValue="1000"
+        >
+
+    </EditTextPreference>
+
+    <EditTextPreference
+        android:key="@string/directionChangesCurrent"
+        android:title="Direction Changes"
+        android:defaultValue="3"
+        >
+
+    </EditTextPreference>
+
+
+</PreferenceScreen>

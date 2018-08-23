@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Backgammon</string>
+
+    <string name="title_activity_fullscreen">GameActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="thresholdDefault">defaultThreshold</string>
+    <string name="betweenShakesDefault">defaultBetweenShakes</string>
+    <string name="pauseDefault">defaultPause</string>
+    <string name="directionChangesDefault">defaultDirectionChanges</string>
+
+    <string name="thresholdCurrent">currentThreshold</string>
+    <string name="betweenShakesCurrent">currentBetweenShakes</string>
+    <string name="pauseCurrent">currentPause</string>
+    <string name="directionChangesCurrent">currentDirectionChanges</string>
+</resources>
